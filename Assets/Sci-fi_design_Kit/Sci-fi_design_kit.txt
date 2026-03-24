@@ -1,0 +1,135 @@
+Hi And thanks for purchase this package.
+This is a modular suite of objects which you can find everything you need to build your own sci-fi level now in Unity 5 with PBR textures.
+Halls, warehouses, laboratories, animated doors, machinery ..
+The only limitation is your imagination.
+In this package you will find:
+- 511 different objects
+- 670 Prefavs
+- Over 150 original textures.
+- 23 sound effects.
+In this Pbr version, i used the unity standar material (metalness). The old textures have been created with shader forge
+Now you can use the Albedo map, AmbientOclission map, height map (in some object), Normal map, Metalness & emissive maps. You still have the old textures.
+Objetc:
+In this package you will find all this differents models:
+
+Floors: 129
+
+Hologrmas: 45
+
+Colliders:82
+
+Doors: 7
+
+Arcs: 12
+
+Cealings: 9
+
+Walls: 118
+
+  Doors walls:14
+  Special Walls: 19
+  Walls: 85
+  Wall elemets:
+      top:27
+      middle:30
+      botton:3
+      Separate elemets:10
+
+Objects:
+  
+   Consoles: 13
+   Fences: 2
+   Lights: 11
+   Mechanics:33
+   Ornaments: 25
+   Stairs: 11
+   Vents: 5
+   Wires: 9
+   
+**// Some people are getting some erros in the console when they import the scenes. If this happens try to re import the "character" & "image effects" assets. 
+
+**// Sadly some objects doesn't have a correct axis aling. The problem is that if i fixed it, all the people that build his own scenes, will have to modify their scenes and that is a lot of work.
+
+You can change the floor_X and panel_X material of the prop_Planes objects to get more possibilities in your scene.
+
+(update 1.7)--> Created one atlas material with the floor_x & panels_x material to optimized the draw calls.
+
+Script:
+You can find too cool effects like footstepSound, light flickering, offsetanimation, Random and normal rotation. (script)
+
+
+
+- I have to say thanks to "Molten Metal Studios" for the script: LightFlikering.
+You can see how it's works in this url: https://www.youtube.com/watch?v=iJ1hYx8Xspc&src_vid=_EYShV3QbP4&feature=iv&annotation_id=annotation_2868065977
+
+-The offset animatimation script it's used in the sampler tank objects. It change the start of the animation of each object.
+
+-With Rotate_Animation script, you can rotate objects in their axis. And you can change the velocity of the retation.
+
+-RandRotation_Anim, create a random rotation animation of the object. (in the scene ti has a big cost in the FPS)
+
+-FpsContoller, is the alternative to the FirstPersonController script in your controller. It allow you to ladder the vertical tunnes of the 1.7 scene.
+
+Shaders:
+The Br shader was created in shaderforge especially for this package.
+You can find 4 diferents types of material:
+Metal (Alpha Emilive Relflexion Shader, Emisive Rlefelxión shader and reflexión shader)
+Glass
+Hologram (Emmisive Holo shader and Emmisive Holo 2 shader)
+Base.
+
+Update 1.6
+
+Variations for wall_02 (24) & wall_03 (56)
+Added 27 prefabs of new objetc to commplement the walls variations.
+Added  more decorations objects like: 
+ wires 
+ pipes 
+ screens 
+ news particles 
+ lights
+ extinguisher
+ Floors
+Added new Alarms Soundeffects
+Added new textures for the new objects.
+Added more legos prefabs to create your level in a easy way.
+Added more prefabs with new floors.
+Optimiced the geometry of the special walls.
+fixed some problems with the pivot of the wall_sloping.
+Fixed some issues with the scale of some objetc.
+The footstep script has been deleted from the package to use the last fpscontroller that have a better one.
+
+Update 1.7
+
+Optimized objects.
+Many objects have been optimized in their geometry.
+Now, objects like lights and floors that had several elements, are now a single object. What drastically reduces the drawcalls.
+Particle systems have been optimized.
+An atlas has been created, unifying the texture of floors and panels.
+
+Objects and prefabs.
+220 new items have been added.
+New ceilings, floors and walls have been added.
+New assets like chairs, bunk beds, boxes, tables etc, have been added.
+New doors with their animations and sound effects have been added.
+New stairs with railing and without it have been added.
+Soils, with double height level have been added.
+Vertical tunnels with ladder, and their accesses have been added.
+A gateway system has been added.
+Some objects such as floors and walls have been deepened to avoid gaps.
+New arcs have been added.
+New screens and consoles have been created.
+New holograms have been added.
+Colliders have been added for some objects.
+
+Fixed some problems with the pivot of some objects.
+Added a new script that allows you to climb vertical stairs.
+Problems with the scale of some objects have been detected and fixed.
+
+
+Updated 1.8
+
+Converted js cripts to c#
+Fixed some problems with missings objects
+Now the name of the lights emitters have a correect naming.
+Fixed problems with some colliders
