@@ -133,16 +133,8 @@ This project was created using assets from Unity Asset Store.
 - MonsterMutant
 - Demon damaged
 
-### Visual Assets
-
-- Custom Materials
-- Custom Textures
-- Particle Effects
-- Lighting Effects
-
 ### Animation Assets
 
-- Custom Animations
 - Unity Animator Controllers
 
 ---
